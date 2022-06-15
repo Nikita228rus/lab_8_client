@@ -1,0 +1,32 @@
+{
+    "CMSVersion": 1,
+    "DigestAlgorithmIdentifiers": "sha-256",
+    "EncapsulatedContentInfo": {
+        "ContentType": "text",
+        "OCTET STRING OPTIONAL": "Helloa"
+    },
+    "CertificateSet OPTIONAL": [
+        5,
+        12,
+        17
+    ],
+    "RevocationInfoChoises OPTIONAL": null,
+    "SignerInfos": {
+        "CMSVersion": 1,
+        "SignerIdentifier": "Nikich228rus",
+        "DigestAlgorithmIdentifier": "sha-256",
+        "SignedAttributes OPTIONAL": null,
+        "SignatureAlgorithmIdentifier": "RSAdsi",
+        "SignatureValue": [
+            10,
+            1
+        ],
+        "UnsignedAttributes OPTIONAL": {
+            "OBJECT IDENTIFIER": [
+                2,
+                20
+            ],
+            "SET OF AttributeValue": "2022-05-26 18:01:25.253314"
+        }
+    }
+}
